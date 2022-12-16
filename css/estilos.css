@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+   body{
+    width: 100%;
+    background-image: url(/img/Hiring-Back-End-Developers-min-scaled.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
+ 
+  .menu{
+    display: flex;
+    min-height: 8vh;
+    background-color: black;
+    justify-content: center;
+  }
+    li{
+    display: flex;
+    background-color: black;
+    font-size: 1.8em;
+    list-style: none;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: 5rem;
+    color: white;
+    
+  }
+   .icono1{
+    height: 2.5rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2.5rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+      .contenedor{
+        height: 50vh;
+        margin: 6%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        color: white;
+        position: absolute;
+      }
+      p{
+        width: 40%;
+        font-size: 1.3em;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        padding-left: 7rem;
+      }   
+  .cargo {
+    font-size: 3rem;
+    text-align: end;
+    color: white;
+    margin-right: 1rem;
+  }
+  .nombre{
+    font-size: 3.5rem;
+    text-align: start;
+    color: white;
+    margin-right: 8rem;
+  }
+  
+@media screen and (min-width: 250px) and (max-width: 450px){
+  body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .menu{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+  }
+  .menu li{
+    background-color: black;
+    font-size: 1.5em;
+    list-style: none;
+    width: 100%;
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: .3rem;
+  }
+   .icono1{
+    height: 2rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+  .contenedor{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+  }
+  p{
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: .2rem;
+    padding: 0 3rem 0 0;
+  }   
+.cargo {
+font-size: 2rem;
+text-align: start;
+color: white;
+width: 100%;
+padding: 0 0 0 0;
+}
+.nombre{
+font-size: 2rem;
+text-align: start;
+color: white;
+width: 87%;
+margin-left: 4rem;
+}
+
+}
+@media screen and (min-width: 451px) and (max-width: 580px){
+  body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .menu{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+  }
+  li{
+    background-color: black;
+    font-size: 1.5em;
+    list-style: none;
+    width: 100%;
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: 5rem;
+  }
+   .icono1{
+    height: 2rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+  .contenedor{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+  }
+  p{
+    width: 100%;
+    font-size: 1.3em;
+    margin-right:  9rem;
+    margin-top: 0;
+    padding-right: 1rem;
+  }   
+.cargo {
+font-size: 2rem;
+margin-right: 12rem;
+color: white;
+width: 100%;
+
+}
+.nombre{
+font-size: 2rem;
+margin-left: 9rem;
+color: white;
+width: 87%;
+
+}
+}
+ @media screen and (min-width: 581px) and (max-width: 768px) {
+ body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .menu{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+  li{
+    background-color: black;
+    font-size: 1.5em;
+    list-style: none;
+    width: 100%;
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: 5rem;
+  }
+   .icono1{
+    height: 2rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+  .contenedor{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+  }
+  p{
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin: 0 0 0 2rem;
+    padding-right: 10rem;
+  }   
+.cargo {
+font-size: 2rem;
+margin-right: 35rem;
+color: white;
+width: 100%;
+}
+.nombre{
+font-size: 2rem;
+margin-left: 15rem;
+color: white;
+width: 87%;
+
+}
+} 
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+  body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .menu{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+  li{
+    background-color: black;
+    font-size: 1.5em;
+    list-style: none;
+    width: 100%;
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: 8rem;
+  }
+   .icono1{
+    height: 2rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+  .contenedor{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+  }
+  p{
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin: 0 0 0 16rem;
+    padding-right: 10rem;
+  }   
+.cargo {
+font-size: 2rem;
+margin-right: 36rem;
+color: white;
+width: 100%;
+}
+.nombre{
+font-size: 2rem;
+margin-left: 27rem;
+color: white;
+width: 87%;
+
+}
+}
+  
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+  body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .menu{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+  }
+  li{
+    background-color: black;
+    font-size: 1.5em;
+    list-style: none;
+    width: 100%;
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: 10rem;
+  }
+   .icono1{
+    height: 2rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+  .contenedor{
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+  }
+  p{
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin: 0 0 0 16rem;
+    padding-right: 10rem;
+  }   
+.cargo {
+font-size: 2rem;
+margin-right: 36rem;
+color: white;
+width: 100%;
+}
+.nombre{
+font-size: 2rem;
+margin-left: 27rem;
+color: white;
+width: 87%;
+
+}
+}
+@media screen and (min-width: 1025px) and (max-width: 1328px) {
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+   body{
+    width: 100%;
+    background-image: url(/img/Hiring-Back-End-Developers-min-scaled.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  } 
+  .menu{
+    display: flex;
+    min-height: 8vh;
+    background-color: white;
+  }
+  li{
+    display: flex;
+    background-color: black;
+    font-size: 1.8em;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  ul a {
+    color: white;
+  }
+  .redes{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    min-height: 8vh;
+  }
+  .enlaces{
+    padding-right: 9rem;
+  }
+   .icono1{
+    height: 2.5rem;
+    border: 3px solid black;
+    border-radius: 25px;
+    } 
+  .icono2{
+      height: 2.5rem;
+      border: 3px  white;
+      border-radius: 25px;
+      } 
+      .contenedor{
+        height: 50vh;
+        margin: 6%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        color: white;
+        position: absolute;
+      }
+      p{
+        width: 50%;
+        font-size: 1.3em;
+        margin-right: 1rem;
+      }   
+  .cargo {
+    font-size: 3rem;
+    color: white;
+    margin-left: 5rem;
+  }
+  .nombre{
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 8rem;
+    
+  }
+}
+
