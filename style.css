@@ -117,7 +117,7 @@
     display: flex;
     background-color: black;
     justify-content: center;
-    width: 100%;
+    width: 110%;
     flex-direction: column;
     align-items: center;
     height: 20vh;
@@ -212,7 +212,7 @@ margin-left: 4rem;
     min-height: 8vh;
   }
   .enlaces{
-    padding-right: 5rem;
+    padding-right: 3rem;
   }
    .icono1{
     height: 2rem;
@@ -337,7 +337,7 @@ width: 87%;
     display: flex;
     background-color: black;
     justify-content: center;
-    width: auto;
+    width: 100%;
     flex-direction: row;
     align-items: center;
   }
