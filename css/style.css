@@ -552,4 +552,13 @@ width: 87%;
     
   }
 }
-
+@media screen and (orientation: landscape){
+  .menu{
+    display: flex;
+    min-height: 8vh;
+    background-color: black;
+    justify-content: center;
+    width: 115%;
+    
+  }
+}
